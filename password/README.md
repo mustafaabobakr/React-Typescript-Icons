@@ -5,10 +5,10 @@
  </tr>
  <tr>
   <td>
-    <img width="600" alt="image" src="password/password.svg">
+    <img width="600" alt="image" src="/password.svg">
   </td>
   <td>
-    <img width="600" alt="image" src="password/password_revealed.svg">
+    <img width="600" alt="image" src="/password_revealed.svg">
   </td>
  </tr>
 </table>
