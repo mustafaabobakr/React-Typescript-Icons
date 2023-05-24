@@ -1,27 +1,4 @@
-# React-Typescript-Icons
-
-SVG Icons React Typescript Components
-
-<table>
- <tr>
-  <th>password</th>
-  <th>password revealed</th>
- </tr>
- <tr>
-  <td>
-    <img width="600" alt="image" src="password/password.svg">
-  </td>
-  <td>
-    <img width="600" alt="image" src="password/password_revealed.svg">
-  </td>
- </tr>
-</table>
-
-Copy React Component to your project:
-
-```tsx
 import React, { memo, SVGProps } from "react";
-
 interface PasswordIconProps extends SVGProps<SVGSVGElement> {
 	show?: boolean;
 	width?: number;
@@ -74,4 +51,3 @@ PasswordIcon.defaultProps = {
 	height: 24,
 };
 export default memo(PasswordIcon);
-```
